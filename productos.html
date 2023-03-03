@@ -7,30 +7,38 @@
 	<link rel="stylesheet" href="public/bootstrap-5.2.3/dist/css/bootstrap.min.css">
     <title>Productos</title>
 </head>
-<body class="bg-secondary bg-opacity-10">
+<body class="bg-white">
 	<header>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Página de Servicios</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<ul class="navbar-nav me-auto mb-2 mb-md-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Productos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Servicios</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contacto</a>
-						</li>
-					</ul>
-				</div>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="web.html">
+			  <div id="navLogo">
+				<img src="public/img/tuerca.png" alt="" height="50px" style="margin-left: 50px;">
+			  </div>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+				<li class="nav-item">
+				  <h3 class="" style="color: whitesmoke; margin-right: 25px;">Página de Servicios</h3>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Servicios</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Contacto</a>
+				</li>
+			  </ul>
 			</div>
+		  </div>
 		</nav>
-	</header>
+	  </header>
+	  <br>
   <main>
     <!--TODO:(INI) Elemento de BUSQUEDA para productos-->
     <div class="container">
@@ -48,6 +56,12 @@
     <div class="container">
       <div class="row row-cols-1 row-cols-md-4 g-4" id="div_elementos"></div>
     </div>
+
+	<div class="container" style="margin-top: 50px;">
+		<footer class="container">
+		  <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+		</footer>
+	  </div>
   </main>
 </body>
 <script src="public/js/jquery.js"></script>
